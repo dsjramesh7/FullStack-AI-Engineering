@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "revising concepts and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "flash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
