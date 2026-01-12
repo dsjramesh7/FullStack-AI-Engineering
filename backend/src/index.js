@@ -10,8 +10,8 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    app.on("Error", (error) => {
-      console.log("ERROR", error);
+    app.on("error", (error) => {
+      console.log("error", error);
       throw error;
     });
 
